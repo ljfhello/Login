@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#efefef"
+    android:orientation="horizontal" >
+
+
+    <LinearLayout
+        android:id="@+id/nav_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+
+        <View
+            android:id="@+id/nav_search_color"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/nav_pressed"
+            android:duplicateParentState="true" />
+
+
+        <ImageView
+            android:id="@+id/nav_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:scaleType="center"
+            android:src="@drawable/musiccc" />
+
+
+        <TextView
+            android:id="@+id/nav_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="音  乐"
+            android:textColor="@color/nav_pressed"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nav_home_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+
+        <View
+            android:id="@+id/nav_home_color"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/nav_normal" />
+
+
+        <ImageView
+            android:id="@+id/nav_home_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:scaleType="center"
+            android:src="@drawable/playa" />
+
+
+        <TextView
+            android:id="@+id/nav_home_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="游  戏"
+            android:textColor="@color/nav_text_normal"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nav_selfinfo_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+
+        <View
+            android:id="@+id/nav_selfinfo_color"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/nav_normal" />
+
+
+        <ImageView
+            android:id="@+id/nav_selfinfo_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_selfinfo_nor" />
+
+
+        <TextView
+            android:id="@+id/nav_selfinfo_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="分  享"
+            android:textColor="@color/nav_text_normal"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nav_mess_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+
+        <View
+            android:id="@+id/nav_mess_color"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/nav_normal" />
+
+
+        <ImageView
+            android:id="@+id/nav_mess_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_home_nor1" />
+
+
+        <TextView
+            android:id="@+id/nav_mess_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:gravity="center_horizontal"
+            android:text="个人中心"
+            android:textColor="@color/nav_text_normal"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
