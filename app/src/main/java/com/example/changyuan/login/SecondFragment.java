@@ -16,5 +16,6 @@ public class SecondFragment extends Fragment {
         final View view = inflater.inflate(R.layout.fg2, container,
                 false);
         return view;
+        //qqqq
     }
 }
